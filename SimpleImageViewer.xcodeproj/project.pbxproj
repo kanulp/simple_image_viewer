@@ -13,6 +13,8 @@
 		347174702550976900B76341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3471746E2550976900B76341 /* Main.storyboard */; };
 		347174722550976B00B76341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347174712550976B00B76341 /* Assets.xcassets */; };
 		347174752550976B00B76341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347174732550976B00B76341 /* LaunchScreen.storyboard */; };
+		3471747D2550982600B76341 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471747C2550982600B76341 /* ImageModel.swift */; };
+		3471747F2550AB3300B76341 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3471747E2550AB3300B76341 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		347174712550976B00B76341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		347174742550976B00B76341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		347174762550976B00B76341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3471747C2550982600B76341 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		3471747E2550AB3300B76341 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		3471745C2550976900B76341 = {
 			isa = PBXGroup;
 			children = (
+				3471747E2550AB3300B76341 /* readme.md */,
 				347174672550976900B76341 /* SimpleImageViewer */,
 				347174662550976900B76341 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				347174712550976B00B76341 /* Assets.xcassets */,
 				347174732550976B00B76341 /* LaunchScreen.storyboard */,
 				347174762550976B00B76341 /* Info.plist */,
+				3471747C2550982600B76341 /* ImageModel.swift */,
 			);
 			path = SimpleImageViewer;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				347174752550976B00B76341 /* LaunchScreen.storyboard in Resources */,
 				347174722550976B00B76341 /* Assets.xcassets in Resources */,
+				3471747F2550AB3300B76341 /* readme.md in Resources */,
 				347174702550976900B76341 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				3471746D2550976900B76341 /* ViewController.swift in Sources */,
 				347174692550976900B76341 /* AppDelegate.swift in Sources */,
 				3471746B2550976900B76341 /* SceneDelegate.swift in Sources */,
+				3471747D2550982600B76341 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
